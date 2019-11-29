@@ -7,4 +7,9 @@ git log
 git reset --hard HEAD^
 退回到指定版本 
 git reset --hard + 版本的commit id
-test
+查看git状态
+git status
+撤销命令
+git checkout -- 文件名
+管理分支 
+git checkout 
