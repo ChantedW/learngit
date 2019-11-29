@@ -7,3 +7,4 @@ git log
 git reset --hard HEAD^
 退回到指定版本 
 git reset --hard + 版本的commit id
+test
