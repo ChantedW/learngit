@@ -25,3 +25,10 @@ git checkout
 
 克隆远程仓 
 使用 git clone xxxxxxx 地址
+
+远程仓更新后同步到本地仓
+1. 查看远程仓库  git remote -v
+2. 获取远程仓库内容 git fetch origin master(远程分支):master（本地分支）
+3. 比较内容   git diff master
+4.合并分支 git merge master 
+
