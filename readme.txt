@@ -13,3 +13,6 @@ git status
 git checkout -- 文件名
 管理分支 
 git checkout 
+删除文件
+先删除文件 或者bash 使用rm 然后使用git rm 文件名
+然后提交 git commit -m  “删除原因”
