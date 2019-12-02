@@ -1,6 +1,9 @@
 提交文档
 git add  read.txt
 git commit -m "version infomation"
+提交所有文件
+git add . 
+git commit -m "add command"
 查看所有版本文件
 git log
 退回到上有版本
@@ -31,4 +34,5 @@ git checkout
 2. 获取远程仓库内容 git fetch origin master(远程分支):master（本地分支）
 3. 比较内容   git diff master
 4.合并分支 git merge master 
+
 
